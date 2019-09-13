@@ -1,0 +1,4 @@
+<div class="board ">
+  <app-tile *ngFor="let tile of gameLine; index as i" (click)="clickedTile(i)" [player]="tile">
+  </app-tile>
+</div>

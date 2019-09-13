@@ -1,0 +1,25 @@
+.navigation {
+  width: 100%;
+  height: 60px;
+  background-color: #9b59b6;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a {
+  color: #ecf0f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Futura";
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.navigation a:hover {
+  color: #bdc3c7;
+}

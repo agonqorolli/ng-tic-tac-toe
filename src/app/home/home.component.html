@@ -1,0 +1,10 @@
+<div class="home container">
+  <h1>Welcome to classic Tic Tac Toe game</h1>
+
+  <h2>Please pick the opponent</h2>
+
+  <div class="flexRow">
+    <button [routerLink]="['/play']" (click)="pickPlayer('friend')">vs. a Friend</button>
+    <button [routerLink]="['/play']" (click)="pickPlayer('ai')">vs. AI</button>
+  </div>
+</div>

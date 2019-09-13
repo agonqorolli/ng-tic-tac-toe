@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Futura Bold";
+  src: url(assets/font/Futura-XBlkBT.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ecf0f1;
+}
+
+.container {
+  padding: 50px 100px;
+}
+
+h1 {
+  font-family: "Futura Bold";
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Futura Bold";
+  font-size: 20px;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  padding: 5px 10px;
+  border: 3px solid #ecf0f1;
+  background-color: transparent;
+  font-family: "Futura Bold";
+  font-size: 15px;
+  color: #ecf0f1;
+}
+
+button:hover {
+  color: #bdc3c7;
+  border-color: #bdc3c7;
+  cursor: pointer;
+}

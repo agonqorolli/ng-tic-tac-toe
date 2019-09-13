@@ -1,0 +1,15 @@
+.home {
+  margin: 0;
+  width: auto;
+  height: calc(100vh - 160px);
+  background-color: #e74c3c;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home button {
+    margin: 10px 10px;
+}

@@ -1,0 +1,12 @@
+<div class="play container">
+  <h1>Classic Tic Tac Toe</h1>
+  <h2>versus a friend</h2>
+
+  <app-board #appBoard></app-board>
+
+  <div class="score">
+    <h2>X: {{xResult}}</h2>
+    <i class="material-icons" (click)="appBoard.reload()">refresh</i>
+    <h2>O: {{oResult}}</h2>
+  </div>
+</div>
